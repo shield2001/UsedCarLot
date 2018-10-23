@@ -11,11 +11,11 @@ ArrayList<String> list=new ArrayList<String>(Carlist);//Creating arraylist
  public UsedCarLot(){
      /** loop and add cars to the array usedCarlist**/
      
-     c1=(Car) new AutoTransCar("VW",2500,"VW Bug","red", 1959,"auto","Vin 01", false);
+     c1=(Car) new AutoTransCar("VW",2500,"VW Bug","red", 1959,"auto","JT4RN93P9P5078926", false);
      totalValue=c1.getPrice();
-     c2=(Car) new AutoTransCar("Ford",5000,"Ford Mustang","red",1959,"auto","Vin 02", false);
+     c2=(Car) new AutoTransCar("Ford",5000,"Ford Mustang","red",1959,"auto","2CNBE18U2P6968668", false);
      totalValue+=c2.getPrice();
-     c3= (Car) new ManualTransCar("Honda",12000,"Honda Fit","red", 5, "manual", "Vin 03");
+     c3= (Car) new ManualTransCar("Honda",12000,"Honda Fit","red", 5, "manual", "1FTWF32S71ED69760");
      totalValue+=c3.getPrice();
      
      /* Note Cannot instantiate c4 below.  Why? -> Because there is an arument missing
